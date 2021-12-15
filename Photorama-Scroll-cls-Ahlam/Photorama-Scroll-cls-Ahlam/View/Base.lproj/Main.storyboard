@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dYz-wM-Hri">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Layout Guides-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Photorama_Scroll_cls_Ahlam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lwR-KI-71j">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gbp-HV-vbp" userLabel="Content_View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyS-PA-KRL" userLabel="Description_Label">
+                                                <rect key="frame" x="15" y="0.0" width="384" height="20.5"/>
+                                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="pyS-PA-KRL" firstAttribute="leading" secondItem="Gbp-HV-vbp" secondAttribute="leading" constant="15" id="8ab-0y-IgF"/>
+                                            <constraint firstAttribute="bottom" secondItem="pyS-PA-KRL" secondAttribute="bottom" id="CpU-k1-dji"/>
+                                            <constraint firstAttribute="trailing" secondItem="pyS-PA-KRL" secondAttribute="trailing" constant="15" id="PlJ-ny-cCu"/>
+                                            <constraint firstItem="pyS-PA-KRL" firstAttribute="top" secondItem="Gbp-HV-vbp" secondAttribute="top" id="qcr-zD-oAF"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Gbp-HV-vbp" firstAttribute="width" secondItem="jZS-we-LHa" secondAttribute="width" id="3GS-59-r3H"/>
+                                    <constraint firstItem="Gbp-HV-vbp" firstAttribute="bottom" secondItem="uaK-i8-4Rx" secondAttribute="bottom" id="6go-7K-pTm"/>
+                                    <constraint firstItem="Gbp-HV-vbp" firstAttribute="trailing" secondItem="uaK-i8-4Rx" secondAttribute="trailing" id="aQG-lQ-kZW"/>
+                                    <constraint firstItem="Gbp-HV-vbp" firstAttribute="leading" secondItem="uaK-i8-4Rx" secondAttribute="leading" id="wkq-hM-PBw"/>
+                                    <constraint firstItem="Gbp-HV-vbp" firstAttribute="top" secondItem="uaK-i8-4Rx" secondAttribute="top" id="zDw-jJ-O7M"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="uaK-i8-4Rx"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="jZS-we-LHa"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="y3d-St-ujU"/>
+                        <color key="backgroundColor" red="0.51372549019607838" green="0.59614158159999997" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lwR-KI-71j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7oN-jB-Xzn"/>
+                            <constraint firstAttribute="bottom" secondItem="lwR-KI-71j" secondAttribute="bottom" id="OMn-il-VjZ"/>
+                            <constraint firstItem="lwR-KI-71j" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OP9-yf-FWu"/>
+                            <constraint firstAttribute="trailing" secondItem="lwR-KI-71j" secondAttribute="trailing" id="jMH-dr-6LU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Layout Guides" id="Nlj-l5-sI2"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="pyS-PA-KRL" id="l5E-jr-axB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="66.964285714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ycB-CQ-RQp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dYz-wM-Hri" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="zSf-Wy-Dq3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="wqm-lZ-Zx9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ESa-wh-Bue" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="66.964285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
