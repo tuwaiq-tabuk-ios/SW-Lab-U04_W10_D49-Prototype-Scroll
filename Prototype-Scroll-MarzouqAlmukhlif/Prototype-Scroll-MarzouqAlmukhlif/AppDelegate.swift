@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Photorama-MarzouqAlmukhlif
+//  Prototype-Scroll-MarzouqAlmukhlif
 //
-//  Created by Marzouq Almukhlif on 09/05/1443 AH.
+//  Created by Marzouq Almukhlif on 11/05/1443 AH.
 //
 
 import UIKit
