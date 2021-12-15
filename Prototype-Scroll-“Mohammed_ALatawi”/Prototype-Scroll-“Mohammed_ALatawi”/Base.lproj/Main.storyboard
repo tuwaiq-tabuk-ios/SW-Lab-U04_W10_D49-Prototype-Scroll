@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MmL-kT-R2q">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Layout Guides-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Prototype_Scroll__Mohammed_ALatawi_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Root_View">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RGs-AE-LMr" userLabel="Scroll_View">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S58-QP-jhv" userLabel="Content_view">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiN-az-OiI" userLabel="Description_Label">
+                                                <rect key="frame" x="15" y="0.0" width="399" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="IiN-az-OiI" secondAttribute="trailing" id="0jw-e1-DVS"/>
+                                            <constraint firstItem="IiN-az-OiI" firstAttribute="leading" secondItem="S58-QP-jhv" secondAttribute="leading" constant="15" id="4JC-ka-KEy"/>
+                                            <constraint firstItem="IiN-az-OiI" firstAttribute="top" secondItem="S58-QP-jhv" secondAttribute="top" id="UYS-Ly-rM6"/>
+                                            <constraint firstAttribute="bottom" secondItem="IiN-az-OiI" secondAttribute="bottom" id="iON-FQ-YQh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="S58-QP-jhv" firstAttribute="trailing" secondItem="b8o-Db-eZe" secondAttribute="trailing" id="1qP-f2-ceF"/>
+                                    <constraint firstItem="S58-QP-jhv" firstAttribute="bottom" secondItem="b8o-Db-eZe" secondAttribute="bottom" id="B0P-iK-hgT"/>
+                                    <constraint firstItem="S58-QP-jhv" firstAttribute="top" secondItem="b8o-Db-eZe" secondAttribute="top" id="EPi-4C-dIw"/>
+                                    <constraint firstItem="S58-QP-jhv" firstAttribute="leading" secondItem="b8o-Db-eZe" secondAttribute="leading" id="fRP-qw-P6g"/>
+                                    <constraint firstItem="S58-QP-jhv" firstAttribute="width" secondItem="lhh-8i-0HU" secondAttribute="width" id="y0g-Kg-qZW"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="b8o-Db-eZe"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="lhh-8i-0HU"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kaj-rP-ihe"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="RGs-AE-LMr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CIW-Ty-2m1"/>
+                            <constraint firstAttribute="bottom" secondItem="RGs-AE-LMr" secondAttribute="bottom" id="Wd7-68-6mx"/>
+                            <constraint firstAttribute="trailing" secondItem="RGs-AE-LMr" secondAttribute="trailing" id="gSu-Bs-4PT"/>
+                            <constraint firstItem="RGs-AE-LMr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="x10-pR-f9J"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Layout Guides" id="Lqa-kQ-t6r"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="IiN-az-OiI" id="Yu8-I6-ulU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1839.1304347826087" y="88.392857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NbN-8y-Qjd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MmL-kT-R2q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="hEu-4p-oHV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rGV-AO-00V">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yRl-y8-RBo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x3F-VE-s14" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
