@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mxu-ru-VS9">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Layout Guide-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Protype_Scroll_cls" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Root_View">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddG-Y5-99S">
+                                <rect key="frame" x="20" y="140" width="374" height="722"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PfM-Zm-YjE" userLabel="Content_View">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRN-5J-0Af" userLabel="Des_Label">
+                                                <rect key="frame" x="15" y="0.0" width="359" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="sRN-5J-0Af" firstAttribute="leading" secondItem="PfM-Zm-YjE" secondAttribute="leading" constant="15" id="Tnh-In-2Zl"/>
+                                            <constraint firstAttribute="trailing" secondItem="sRN-5J-0Af" secondAttribute="trailing" id="mNT-af-LtS"/>
+                                            <constraint firstAttribute="bottom" secondItem="sRN-5J-0Af" secondAttribute="bottom" id="oeH-gY-sck"/>
+                                            <constraint firstItem="sRN-5J-0Af" firstAttribute="top" secondItem="PfM-Zm-YjE" secondAttribute="top" id="ynS-I6-bSE"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="PfM-Zm-YjE" firstAttribute="width" secondItem="ioO-M3-oJx" secondAttribute="width" id="0VZ-Qu-WhJ"/>
+                                    <constraint firstItem="PfM-Zm-YjE" firstAttribute="leading" secondItem="Kgo-wE-itj" secondAttribute="leading" id="AJM-LS-bjN"/>
+                                    <constraint firstItem="PfM-Zm-YjE" firstAttribute="top" secondItem="Kgo-wE-itj" secondAttribute="top" id="MwW-qh-Rd9"/>
+                                    <constraint firstItem="PfM-Zm-YjE" firstAttribute="bottom" secondItem="Kgo-wE-itj" secondAttribute="bottom" id="NN9-c8-eJJ"/>
+                                    <constraint firstItem="PfM-Zm-YjE" firstAttribute="trailing" secondItem="Kgo-wE-itj" secondAttribute="trailing" id="yM2-RA-Izn"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Kgo-wE-itj"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ioO-M3-oJx"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZHJ-cA-a7H"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ddG-Y5-99S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="VjA-Sq-FYY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ddG-Y5-99S" secondAttribute="trailing" id="Y7Y-EM-fFY"/>
+                            <constraint firstItem="ddG-Y5-99S" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="dr9-pI-pBf"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ddG-Y5-99S" secondAttribute="bottom" id="wdO-4a-Esm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Layout Guide" id="6dX-qQ-eK9"/>
+                    <connections>
+                        <outlet property="desLabel" destination="sRN-5J-0Af" id="Fai-BP-LGu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="714.49275362318849" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NuB-5T-uRe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mxu-ru-VS9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="xXd-8e-Ld2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <navigationBarAppearance key="scrollEdgeAppearance"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tfc-ac-gSU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wzo-UQ-BVU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-194.20289855072465" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
