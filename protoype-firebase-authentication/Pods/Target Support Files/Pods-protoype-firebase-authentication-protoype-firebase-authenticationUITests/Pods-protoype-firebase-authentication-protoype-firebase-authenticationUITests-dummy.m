@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_protoype_firebase_authentication_protoype_firebase_authenticationUITests : NSObject
+@end
+@implementation PodsDummy_Pods_protoype_firebase_authentication_protoype_firebase_authenticationUITests
+@end
