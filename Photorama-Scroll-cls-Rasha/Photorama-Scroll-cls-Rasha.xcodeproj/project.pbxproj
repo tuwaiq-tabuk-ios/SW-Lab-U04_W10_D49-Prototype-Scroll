@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA415A462769D3AB000D5A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA415A452769D3AB000D5A1C /* AppDelegate.swift */; };
+		DA415A482769D3AB000D5A1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA415A472769D3AB000D5A1C /* SceneDelegate.swift */; };
+		DA415A4A2769D3AB000D5A1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA415A492769D3AB000D5A1C /* ViewController.swift */; };
+		DA415A4D2769D3AB000D5A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA415A4B2769D3AB000D5A1C /* Main.storyboard */; };
+		DA415A502769D3AB000D5A1C /* Photorama_Scroll_cls_Rasha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA415A4E2769D3AB000D5A1C /* Photorama_Scroll_cls_Rasha.xcdatamodeld */; };
+		DA415A522769D3AC000D5A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA415A512769D3AC000D5A1C /* Assets.xcassets */; };
+		DA415A552769D3AC000D5A1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA415A532769D3AC000D5A1C /* LaunchScreen.storyboard */; };
+		DA415A602769D3AC000D5A1C /* Photorama_Scroll_cls_RashaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA415A5F2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaTests.swift */; };
+		DA415A6A2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA415A692769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITests.swift */; };
+		DA415A6C2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA415A6B2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA415A5C2769D3AC000D5A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA415A3A2769D3AB000D5A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA415A412769D3AB000D5A1C;
+			remoteInfo = "Photorama-Scroll-cls-Rasha";
+		};
+		DA415A662769D3AC000D5A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA415A3A2769D3AB000D5A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA415A412769D3AB000D5A1C;
+			remoteInfo = "Photorama-Scroll-cls-Rasha";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA415A422769D3AB000D5A1C /* Photorama-Scroll-cls-Rasha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photorama-Scroll-cls-Rasha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA415A452769D3AB000D5A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA415A472769D3AB000D5A1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA415A492769D3AB000D5A1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA415A4C2769D3AB000D5A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA415A4F2769D3AB000D5A1C /* Photorama_Scroll_cls_Rasha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photorama_Scroll_cls_Rasha.xcdatamodel; sourceTree = "<group>"; };
+		DA415A512769D3AC000D5A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA415A542769D3AC000D5A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA415A562769D3AC000D5A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA415A5B2769D3AC000D5A1C /* Photorama-Scroll-cls-RashaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photorama-Scroll-cls-RashaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA415A5F2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_Scroll_cls_RashaTests.swift; sourceTree = "<group>"; };
+		DA415A652769D3AC000D5A1C /* Photorama-Scroll-cls-RashaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photorama-Scroll-cls-RashaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA415A692769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_Scroll_cls_RashaUITests.swift; sourceTree = "<group>"; };
+		DA415A6B2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_Scroll_cls_RashaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA415A3F2769D3AB000D5A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA415A582769D3AC000D5A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA415A622769D3AC000D5A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA415A392769D3AB000D5A1C = {
+			isa = PBXGroup;
+			children = (
+				DA415A442769D3AB000D5A1C /* Photorama-Scroll-cls-Rasha */,
+				DA415A5E2769D3AC000D5A1C /* Photorama-Scroll-cls-RashaTests */,
+				DA415A682769D3AC000D5A1C /* Photorama-Scroll-cls-RashaUITests */,
+				DA415A432769D3AB000D5A1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA415A432769D3AB000D5A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA415A422769D3AB000D5A1C /* Photorama-Scroll-cls-Rasha.app */,
+				DA415A5B2769D3AC000D5A1C /* Photorama-Scroll-cls-RashaTests.xctest */,
+				DA415A652769D3AC000D5A1C /* Photorama-Scroll-cls-RashaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA415A442769D3AB000D5A1C /* Photorama-Scroll-cls-Rasha */ = {
+			isa = PBXGroup;
+			children = (
+				DA415A452769D3AB000D5A1C /* AppDelegate.swift */,
+				DA415A472769D3AB000D5A1C /* SceneDelegate.swift */,
+				DA415A492769D3AB000D5A1C /* ViewController.swift */,
+				DA415A4B2769D3AB000D5A1C /* Main.storyboard */,
+				DA415A512769D3AC000D5A1C /* Assets.xcassets */,
+				DA415A532769D3AC000D5A1C /* LaunchScreen.storyboard */,
+				DA415A562769D3AC000D5A1C /* Info.plist */,
+				DA415A4E2769D3AB000D5A1C /* Photorama_Scroll_cls_Rasha.xcdatamodeld */,
+			);
+			path = "Photorama-Scroll-cls-Rasha";
+			sourceTree = "<group>";
+		};
+		DA415A5E2769D3AC000D5A1C /* Photorama-Scroll-cls-RashaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA415A5F2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaTests.swift */,
+			);
+			path = "Photorama-Scroll-cls-RashaTests";
+			sourceTree = "<group>";
+		};
+		DA415A682769D3AC000D5A1C /* Photorama-Scroll-cls-RashaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA415A692769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITests.swift */,
+				DA415A6B2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITestsLaunchTests.swift */,
+			);
+			path = "Photorama-Scroll-cls-RashaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA415A412769D3AB000D5A1C /* Photorama-Scroll-cls-Rasha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA415A6F2769D3AC000D5A1C /* Build configuration list for PBXNativeTarget "Photorama-Scroll-cls-Rasha" */;
+			buildPhases = (
+				DA415A3E2769D3AB000D5A1C /* Sources */,
+				DA415A3F2769D3AB000D5A1C /* Frameworks */,
+				DA415A402769D3AB000D5A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photorama-Scroll-cls-Rasha";
+			productName = "Photorama-Scroll-cls-Rasha";
+			productReference = DA415A422769D3AB000D5A1C /* Photorama-Scroll-cls-Rasha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA415A5A2769D3AC000D5A1C /* Photorama-Scroll-cls-RashaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA415A722769D3AC000D5A1C /* Build configuration list for PBXNativeTarget "Photorama-Scroll-cls-RashaTests" */;
+			buildPhases = (
+				DA415A572769D3AC000D5A1C /* Sources */,
+				DA415A582769D3AC000D5A1C /* Frameworks */,
+				DA415A592769D3AC000D5A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA415A5D2769D3AC000D5A1C /* PBXTargetDependency */,
+			);
+			name = "Photorama-Scroll-cls-RashaTests";
+			productName = "Photorama-Scroll-cls-RashaTests";
+			productReference = DA415A5B2769D3AC000D5A1C /* Photorama-Scroll-cls-RashaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA415A642769D3AC000D5A1C /* Photorama-Scroll-cls-RashaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA415A752769D3AC000D5A1C /* Build configuration list for PBXNativeTarget "Photorama-Scroll-cls-RashaUITests" */;
+			buildPhases = (
+				DA415A612769D3AC000D5A1C /* Sources */,
+				DA415A622769D3AC000D5A1C /* Frameworks */,
+				DA415A632769D3AC000D5A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA415A672769D3AC000D5A1C /* PBXTargetDependency */,
+			);
+			name = "Photorama-Scroll-cls-RashaUITests";
+			productName = "Photorama-Scroll-cls-RashaUITests";
+			productReference = DA415A652769D3AC000D5A1C /* Photorama-Scroll-cls-RashaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA415A3A2769D3AB000D5A1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DA415A412769D3AB000D5A1C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DA415A5A2769D3AC000D5A1C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DA415A412769D3AB000D5A1C;
+					};
+					DA415A642769D3AC000D5A1C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DA415A412769D3AB000D5A1C;
+					};
+				};
+			};
+			buildConfigurationList = DA415A3D2769D3AB000D5A1C /* Build configuration list for PBXProject "Photorama-Scroll-cls-Rasha" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA415A392769D3AB000D5A1C;
+			productRefGroup = DA415A432769D3AB000D5A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA415A412769D3AB000D5A1C /* Photorama-Scroll-cls-Rasha */,
+				DA415A5A2769D3AC000D5A1C /* Photorama-Scroll-cls-RashaTests */,
+				DA415A642769D3AC000D5A1C /* Photorama-Scroll-cls-RashaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA415A402769D3AB000D5A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA415A552769D3AC000D5A1C /* LaunchScreen.storyboard in Resources */,
+				DA415A522769D3AC000D5A1C /* Assets.xcassets in Resources */,
+				DA415A4D2769D3AB000D5A1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA415A592769D3AC000D5A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA415A632769D3AC000D5A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA415A3E2769D3AB000D5A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA415A4A2769D3AB000D5A1C /* ViewController.swift in Sources */,
+				DA415A462769D3AB000D5A1C /* AppDelegate.swift in Sources */,
+				DA415A482769D3AB000D5A1C /* SceneDelegate.swift in Sources */,
+				DA415A502769D3AB000D5A1C /* Photorama_Scroll_cls_Rasha.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA415A572769D3AC000D5A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA415A602769D3AC000D5A1C /* Photorama_Scroll_cls_RashaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA415A612769D3AC000D5A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA415A6C2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITestsLaunchTests.swift in Sources */,
+				DA415A6A2769D3AC000D5A1C /* Photorama_Scroll_cls_RashaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA415A5D2769D3AC000D5A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA415A412769D3AB000D5A1C /* Photorama-Scroll-cls-Rasha */;
+			targetProxy = DA415A5C2769D3AC000D5A1C /* PBXContainerItemProxy */;
+		};
+		DA415A672769D3AC000D5A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA415A412769D3AB000D5A1C /* Photorama-Scroll-cls-Rasha */;
+			targetProxy = DA415A662769D3AC000D5A1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA415A4B2769D3AB000D5A1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA415A4C2769D3AB000D5A1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA415A532769D3AC000D5A1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA415A542769D3AC000D5A1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA415A6D2769D3AC000D5A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA415A6E2769D3AC000D5A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA415A702769D3AC000D5A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9F2D7U526;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photorama-Scroll-cls-Rasha/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Photorama-Scroll-cls-Rasha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA415A712769D3AC000D5A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9F2D7U526;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photorama-Scroll-cls-Rasha/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Photorama-Scroll-cls-Rasha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA415A732769D3AC000D5A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9F2D7U526;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Photorama-Scroll-cls-RashaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photorama-Scroll-cls-Rasha.app/Photorama-Scroll-cls-Rasha";
+			};
+			name = Debug;
+		};
+		DA415A742769D3AC000D5A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9F2D7U526;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Photorama-Scroll-cls-RashaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photorama-Scroll-cls-Rasha.app/Photorama-Scroll-cls-Rasha";
+			};
+			name = Release;
+		};
+		DA415A762769D3AC000D5A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9F2D7U526;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Photorama-Scroll-cls-RashaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photorama-Scroll-cls-Rasha";
+			};
+			name = Debug;
+		};
+		DA415A772769D3AC000D5A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9F2D7U526;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Photorama-Scroll-cls-RashaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photorama-Scroll-cls-Rasha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA415A3D2769D3AB000D5A1C /* Build configuration list for PBXProject "Photorama-Scroll-cls-Rasha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA415A6D2769D3AC000D5A1C /* Debug */,
+				DA415A6E2769D3AC000D5A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA415A6F2769D3AC000D5A1C /* Build configuration list for PBXNativeTarget "Photorama-Scroll-cls-Rasha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA415A702769D3AC000D5A1C /* Debug */,
+				DA415A712769D3AC000D5A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA415A722769D3AC000D5A1C /* Build configuration list for PBXNativeTarget "Photorama-Scroll-cls-RashaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA415A732769D3AC000D5A1C /* Debug */,
+				DA415A742769D3AC000D5A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA415A752769D3AC000D5A1C /* Build configuration list for PBXNativeTarget "Photorama-Scroll-cls-RashaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA415A762769D3AC000D5A1C /* Debug */,
+				DA415A772769D3AC000D5A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA415A4E2769D3AB000D5A1C /* Photorama_Scroll_cls_Rasha.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA415A4F2769D3AB000D5A1C /* Photorama_Scroll_cls_Rasha.xcdatamodel */,
+			);
+			currentVersion = DA415A4F2769D3AB000D5A1C /* Photorama_Scroll_cls_Rasha.xcdatamodel */;
+			path = Photorama_Scroll_cls_Rasha.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA415A3A2769D3AB000D5A1C /* Project object */;
+}
