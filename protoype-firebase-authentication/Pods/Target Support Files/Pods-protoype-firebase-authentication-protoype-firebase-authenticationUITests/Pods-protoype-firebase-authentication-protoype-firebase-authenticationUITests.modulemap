@@ -1,0 +1,6 @@
+framework module Pods_protoype_firebase_authentication_protoype_firebase_authenticationUITests {
+  umbrella header "Pods-protoype-firebase-authentication-protoype-firebase-authenticationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
